@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="cl.aguzman.movies.MainActivity"
+    android:padding="16dp">
+
+
+    <EditText
+        android:id="@+id/movieNameEditText"
+        android:hint="Nombre de la Pelicula"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/saveMovieBtn"
+        android:text="GUARDAR"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="14dp"
+        android:layout_marginBottom="14dp"/>
+
+    <Button
+        android:id="@+id/lastMovieBtn"
+        android:text="ÚLTIMA PELÍCULA"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>
